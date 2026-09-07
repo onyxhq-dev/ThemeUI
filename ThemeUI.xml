@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Plugin>
   <Name>ThemeUI</Name>
-  <Author>onyxdigital-dev</Author>
-  <Version>2026.06.29u</Version>
+  <Author>onyxhq-dev</Author>
+  <Version>2026.09.07a</Version>
   <Category>Tools:</Category>
   <Overview>Theme switcher plugin for Unraid 7.2+ with 10 built-in dark themes. Apply dark color themes across the entire Unraid web UI including the dashboard, login page, Docker and VM pages, usage bars, pie charts, tables, buttons, and context menus. Themes apply instantly on save with no reboot required.</Overview>
   <Description>Theme switcher for Unraid 7.2+ with 10 built-in dark themes and a custom CSS override textarea for fine-tuning.</Description>
-  <Icon>https://raw.githubusercontent.com/Onyxdigital-dev/ThemeUI/master/assets/logo.png</Icon>
-  <Support>https://github.com/Onyxdigital-dev/ThemeUI</Support>
-  <PluginURL>https://raw.githubusercontent.com/Onyxdigital-dev/ThemeUI/master/themeui.plg</PluginURL>
+  <Icon>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/assets/logo.png</Icon>
+  <Support>https://github.com/onyxhq-dev/ThemeUI</Support>
+  <PluginURL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themeui.plg</PluginURL>
 </Plugin>

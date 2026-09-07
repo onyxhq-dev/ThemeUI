@@ -6,10 +6,10 @@
 <p align="center">A theme switcher for the Unraid web UI.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/onyxdigital-dev/ThemeUI?color=8892bf" alt="License">
+  <img src="https://img.shields.io/github/license/onyxhq-dev/ThemeUI?color=8892bf" alt="License">
   <img src="https://img.shields.io/badge/Unraid-7.2%2B-orange" alt="Unraid 7.2+">
   <img src="https://img.shields.io/badge/themes-20-informational" alt="20 themes">
-  <img src="https://img.shields.io/github/last-commit/onyxdigital-dev/ThemeUI" alt="Last commit">
+  <img src="https://img.shields.io/github/last-commit/onyxhq-dev/ThemeUI" alt="Last commit">
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@ Catppuccin Latte, Gruvbox Light, Tokyo Night Day, Solarized Light, One Light, Ro
 2. Paste this URL and click **Install**:
 
    ```
-   https://raw.githubusercontent.com/Onyxdigital-dev/ThemeUI/master/themeui.plg
+   https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themeui.plg
    ```
 
 ## Usage

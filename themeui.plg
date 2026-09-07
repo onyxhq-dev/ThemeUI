@@ -1,15 +1,19 @@
 <?xml version='1.0' standalone='yes'?>
 <!DOCTYPE PLUGIN [
 <!ENTITY name      "ThemeUI">
-<!ENTITY author    "onyxdigital-dev">
-<!ENTITY version   "2026.08.13i">
+<!ENTITY author    "onyxhq-dev">
+<!ENTITY version   "2026.09.07a">
 <!ENTITY launch    "Settings/ThemeUI">
-<!ENTITY pluginURL "https://raw.githubusercontent.com/Onyxdigital-dev/ThemeUI/master/themeui.plg">
+<!ENTITY pluginURL "https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themeui.plg">
 ]>
-<PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" min="6.12" icon="icon.png" support="https://github.com/Onyxdigital-dev/ThemeUI">
+<PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" min="6.12" icon="icon.png" support="https://github.com/onyxhq-dev/ThemeUI">
 
 <CHANGES>
 ## ThemeUI - Theme Switcher for Unraid 7.2+
+## 2026.09.07a
+- Fix illegible disk format confirmation dialog across all themes ("Any data on this disk will be lost! Type 'Yes' to format") - Unraid 7.2 rebuilt this as a stock SweetAlert2 popup that stayed light while the rest of the UI went dark, leaving the "Yes" input dark-on-dark. Now themed via the shared style block (.swal2-popup/.swal2-input)
+- Update GitHub username onyxdigital-dev -> onyxhq-dev in all repo URLs, author fields and support links
+
 ## 2026.08.13i
 - Fix custom logo breaking the boot-up loading animation - the file-overwrite fallback was replacing animated-logo.svg with a static copy of the custom logo, killing Unraid's spinner animation. That file is no longer touched (the DOM-swap already handles the visible logo everywhere); updating also restores animated-logo.svg from backup if a previous version already overwrote it
 
@@ -81,7 +85,7 @@ exit 0
 
 <FILE Run="/bin/bash">
 <INLINE>
-REPO_RAW="https://raw.githubusercontent.com/Onyxdigital-dev/ThemeUI/master"
+REPO_RAW="https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master"
 PLUGIN_DIR="/usr/local/emhttp/plugins/ThemeUI"
 
 curl -fsSL -o "$PLUGIN_DIR/ThemeUILoader.page"   "$REPO_RAW/source/ThemeUILoader.page"

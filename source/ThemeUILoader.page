@@ -33,6 +33,10 @@ a.info span,.clipboard-tooltip{color:#1a1a1a!important;background-color:#f0f0f0!
 fieldset.CMD{background-color:var(--mild-background-color)!important;border-color:var(--border-color)!important;color:var(--text-color)!important}
 fieldset.CMD legend{color:var(--text-color)!important}
 fieldset.CMD .logLine,fieldset.CMD span.id,#logBody{color:var(--text-color)!important}
+.swal2-popup{background:var(--mild-background-color)!important;color:var(--text-color)!important;border:1px solid var(--border-color)!important}
+.swal2-title,.swal2-html-container,.swal2-content,.swal2-label,.swal2-validation-message{color:var(--text-color)!important;background:transparent!important}
+.swal2-input,.swal2-textarea,.swal2-select,.swal2-file{background:var(--background-color)!important;color:var(--text-color)!important;border-color:var(--input-border-color)!important;box-shadow:none!important}
+.swal2-input::placeholder,.swal2-textarea::placeholder{color:var(--alt-text-color)!important}
 </style>\n";
         echo "<script>
 document.addEventListener('DOMContentLoaded',function(){

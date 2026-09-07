@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://raw.githubusercontent.com/Onyxdigital-dev/ThemeUI/master/assets/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/assets/logo.png</Icon>
   <Profile>ThemeUI is a theme switcher plugin for Unraid 7.2+ with 10 built-in dark themes - Catppuccin Mocha, Nord, Dracula, Gruvbox Dark, Tokyo Night, Solarized Dark, One Dark, Rose Pine, Everforest, and Black and White. Themes cover the full Unraid web UI and apply instantly with no reboot required.</Profile>
-  <WebPage>https://github.com/Onyxdigital-dev/ThemeUI</WebPage>
+  <WebPage>https://github.com/onyxhq-dev/ThemeUI</WebPage>
 </Maintainer>
