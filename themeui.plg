@@ -2,7 +2,7 @@
 <!DOCTYPE PLUGIN [
 <!ENTITY name      "ThemeUI">
 <!ENTITY author    "onyxhq-dev">
-<!ENTITY version   "2026.09.07a">
+<!ENTITY version   "2026.09.15a">
 <!ENTITY launch    "Settings/ThemeUI">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themeui.plg">
 ]>
@@ -10,6 +10,9 @@
 
 <CHANGES>
 ## ThemeUI - Theme Switcher for Unraid 7.2+
+## 2026.09.15a
+- ⚠️ Untested: stop appending login-theme.sh to /boot/config/go on install - it now runs from a pinned emhttp plugin event script (event/started) instead, so the plugin no longer edits a shared system boot file. Existing installs get the old /boot/config/go line removed automatically on update
+
 ## 2026.09.07a
 - Fix illegible disk format confirmation dialog across all themes ("Any data on this disk will be lost! Type 'Yes' to format") - Unraid 7.2 rebuilt this as a stock SweetAlert2 popup that stayed light while the rest of the UI went dark, leaving the "Yes" input dark-on-dark. Now themed via the shared style block (.swal2-popup/.swal2-input)
 - Update GitHub username onyxdigital-dev -> onyxhq-dev in all repo URLs, author fields and support links
@@ -218,6 +221,11 @@ exit 0
 <SHA256>104e74c3d2deee566d43c978217d1c77723594ebce494db6c6dbe67a5ebf57ba</SHA256>
 </FILE>
 
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/event/started">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/source/event-started</URL>
+<SHA256>979a44173c4af9506a1e9121e8fa68e33c137b6f2c6d63aee78931e51cb9e8e8</SHA256>
+</FILE>
+
 <FILE Run="/bin/bash">
 <INLINE>
 PLUGIN_DIR="/usr/local/emhttp/plugins/ThemeUI"
@@ -247,12 +255,12 @@ cp /boot/config/plugins/themeui/custom-override.css "$PLUGIN_DIR/custom-override
 rm -f /usr/local/emhttp/webGui/.user.ini
 rm -f /usr/local/emhttp/webGui/include/.user.ini
 
+# migrate installs from before login-theme.sh moved off /boot/config/go
+sed -i '/themeui\/login-theme.sh/d' /boot/config/go 2&gt;/dev/null || true
+
 sed -i 's/\r//' /boot/config/plugins/themeui/login-theme.sh
 chmod +x /boot/config/plugins/themeui/login-theme.sh
-
-if ! grep -q 'themeui/login-theme.sh' /boot/config/go 2&gt;/dev/null; then
-    echo 'bash /boot/config/plugins/themeui/login-theme.sh' &gt;&gt; /boot/config/go
-fi
+chmod +x "$PLUGIN_DIR/event/started"
 
 bash /boot/config/plugins/themeui/login-theme.sh
 
@@ -279,7 +287,6 @@ rm -f /usr/local/emhttp/webGui/.user.ini
 rm -f /usr/local/emhttp/webGui/include/.user.ini
 LOGIN_PAGE="/usr/local/emhttp/webGui/include/.login.php"
 [ -f "$LOGIN_PAGE" ] &amp;&amp; sed -i '/data-themeui/d' "$LOGIN_PAGE"
-sed -i '/themeui\/login-theme.sh/d' /boot/config/go 2&gt;/dev/null || true
 echo "ThemeUI removed."
 exit 0
 </INLINE>

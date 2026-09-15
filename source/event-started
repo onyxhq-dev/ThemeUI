@@ -1,0 +1,2 @@
+#!/bin/bash
+bash /boot/config/plugins/themeui/login-theme.sh
