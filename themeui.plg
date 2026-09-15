@@ -83,20 +83,144 @@ exit 0
 </INLINE>
 </FILE>
 
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/ThemeUILoader.page">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/source/ThemeUILoader.page</URL>
+<SHA256>6a25c2a874df18439dc9121b4a26a24599299351995d6d49cc2ca3705d69f48b</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/ThemeUI.page">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/source/ThemeUI.page</URL>
+<SHA256>86e638646321f68ed34225524db7eb341c36fe678765befd686b8bb61d9c978b</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/login-prepend.php">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/source/login-prepend.php</URL>
+<SHA256>9e34cfe736b3d18d43ea32e1374551dee148ab673043802dc6be50b764035a0e</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/catppuccin-mocha.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/catppuccin-mocha.css</URL>
+<SHA256>5ef8ffaf23ae8ec93f3a30245ec3116f3b3fa5d872959d857e9c7ff18d3379bc</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/catppuccin-latte.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/catppuccin-latte.css</URL>
+<SHA256>933f514a8815abe7ee6cc23b30eaf7403c41289e67a5c82475c2c7953de7c80a</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/nord.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/nord.css</URL>
+<SHA256>68b64c20f77a5542ca19651862afaf9215c76e02837472608098bd82163a36a3</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/nord-light.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/nord-light.css</URL>
+<SHA256>26dc6cd9e6ee201e25cb4c08c27d89591a8eef02b7c60e30ecfb446a3640f84a</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/dracula.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/dracula.css</URL>
+<SHA256>2e821683675c3ebf9e79ab1b5919edbe5b644272febfc761ab5231520d6d2eff</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/dracula-light.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/dracula-light.css</URL>
+<SHA256>0cc5ad43434e049c7780524eb570770d4e6ff7e2f492f0d3955ad28d3f18aaf0</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/gruvbox-dark.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/gruvbox-dark.css</URL>
+<SHA256>7308ee5fdbfd16badc4f40377147b014ee4c54b8e1a6f5eff1df91517f936e99</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/gruvbox-light.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/gruvbox-light.css</URL>
+<SHA256>fb48f7405916b0ad9fa120fdf0216b48c2290b193e8c65985cbae38a0ab890aa</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/tokyo-night.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/tokyo-night.css</URL>
+<SHA256>d1ced2d5bd9277940636b2b615362e4e77de5672e180ab9d2c9604a7b347e554</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/tokyo-night-day.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/tokyo-night-day.css</URL>
+<SHA256>702e7b7fc26b33cc9699f9afec71ea3c83b7e6beb9e310bb5cc64869e0eb644c</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/solarized-dark.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/solarized-dark.css</URL>
+<SHA256>6ba2aa236fefb241cdf8c3149f416408521b8fce3396bef853f69a7056e26034</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/solarized-light.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/solarized-light.css</URL>
+<SHA256>763aa389e807d1b285b16fa1d59ab6c7c9d2c691a7b45a17a2803fb3b5befce5</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/one-dark.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/one-dark.css</URL>
+<SHA256>6a744e09a6d633fc755eb2e8fb13894937b114c4d0a35bb47beefd4fe4a67e23</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/one-light.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/one-light.css</URL>
+<SHA256>8ca0ed54e9527aefd12421b275460b5dc178b37fc604e6a4b6a5cfe65994ff1b</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/rose-pine.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/rose-pine.css</URL>
+<SHA256>5a11ca94100c33be2280395fc2f400769794d40bcb6f2d514fb57d427e41c9d4</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/rose-pine-dawn.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/rose-pine-dawn.css</URL>
+<SHA256>13a6351c80a754dd90c823ba99a1ee555c83617bce900fda854fed0a04b134aa</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/everforest.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/everforest.css</URL>
+<SHA256>da04c64f1cde2335a38b67126a1e8d6265c0eaab6c09b754f7f3f114c07562b0</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/everforest-light.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/everforest-light.css</URL>
+<SHA256>49a5a4a11eba5aaff87be9a2a8c364612bc579465f26800192a22f237bfbbc88</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/black-white.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/black-white.css</URL>
+<SHA256>f33a453ef0bd73dadafbd5221f58093bbc97ca276153007736a764069dd96268</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/white-black.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/white-black.css</URL>
+<SHA256>605326c7b3e1bddb6bfbc43d29e5f71cc3ca3bfe172a97d26338fb4c56fa8668</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/modern.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/modern.css</URL>
+<SHA256>ec989b970ce7656fdd8b05d1c0fb7971c0861462658a8005ffa2e14549e17277</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/themes/login.css">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themes/login.css</URL>
+<SHA256>9ccda760c3be1e3eb7a9f460714cc4bb5a50a5e7d4d7aef3b9d252e0849a1eb7</SHA256>
+</FILE>
+
+<FILE Name="/usr/local/emhttp/plugins/ThemeUI/icon.png">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/assets/logo.png</URL>
+<SHA256>ca206ded25663d36489a64ee39b762e9db086757fa9eb321d54bb0467d1ac5f5</SHA256>
+</FILE>
+
+<FILE Name="/boot/config/plugins/themeui/login-theme.sh">
+<URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/source/login-theme.sh</URL>
+<SHA256>104e74c3d2deee566d43c978217d1c77723594ebce494db6c6dbe67a5ebf57ba</SHA256>
+</FILE>
+
 <FILE Run="/bin/bash">
 <INLINE>
-REPO_RAW="https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master"
 PLUGIN_DIR="/usr/local/emhttp/plugins/ThemeUI"
-
-curl -fsSL -o "$PLUGIN_DIR/ThemeUILoader.page"   "$REPO_RAW/source/ThemeUILoader.page"
-curl -fsSL -o "$PLUGIN_DIR/ThemeUI.page"         "$REPO_RAW/source/ThemeUI.page"
-curl -fsSL -o "$PLUGIN_DIR/login-prepend.php"    "$REPO_RAW/source/login-prepend.php"
-
-for theme in catppuccin-mocha catppuccin-latte nord nord-light dracula dracula-light gruvbox-dark gruvbox-light tokyo-night tokyo-night-day solarized-dark solarized-light one-dark one-light rose-pine rose-pine-dawn everforest everforest-light black-white white-black modern login; do
-    curl -fsSL -o "$PLUGIN_DIR/themes/$theme.css" "$REPO_RAW/themes/$theme.css"
-done
-
-curl -fsSL -o "$PLUGIN_DIR/icon.png" "$REPO_RAW/assets/logo.png" 2>/dev/null || true
 
 if [ -f /boot/config/plugins/themeui/logo-originals/animated-logo.svg ]; then
     cp /boot/config/plugins/themeui/logo-originals/animated-logo.svg /usr/local/emhttp/webGui/images/animated-logo.svg
@@ -111,11 +235,11 @@ if [ -f /boot/config/plugins/ThemeUI/custom-override.css ] &amp;&amp; [ ! -f /bo
 fi
 
 if [ ! -f /boot/config/plugins/themeui/themeui.cfg ]; then
-    printf 'SERVICE="disabled"\nTHEME="default"\n' > /boot/config/plugins/themeui/themeui.cfg
+    printf 'SERVICE="disabled"\nTHEME="default"\n' &gt; /boot/config/plugins/themeui/themeui.cfg
 fi
 
 if [ ! -f /boot/config/plugins/themeui/custom-override.css ]; then
-    : > /boot/config/plugins/themeui/custom-override.css
+    : &gt; /boot/config/plugins/themeui/custom-override.css
 fi
 
 cp /boot/config/plugins/themeui/custom-override.css "$PLUGIN_DIR/custom-override.css"
@@ -123,7 +247,6 @@ cp /boot/config/plugins/themeui/custom-override.css "$PLUGIN_DIR/custom-override
 rm -f /usr/local/emhttp/webGui/.user.ini
 rm -f /usr/local/emhttp/webGui/include/.user.ini
 
-curl -fsSL -o /boot/config/plugins/themeui/login-theme.sh "$REPO_RAW/source/login-theme.sh"
 sed -i 's/\r//' /boot/config/plugins/themeui/login-theme.sh
 chmod +x /boot/config/plugins/themeui/login-theme.sh
 
@@ -135,7 +258,7 @@ bash /boot/config/plugins/themeui/login-theme.sh
 
 echo "----------------------------------------------------"
 echo " ThemeUI installed successfully."
-echo " Go to Settings > Utilities > ThemeUI to pick a theme."
+echo " Go to Settings &gt; Utilities &gt; ThemeUI to pick a theme."
 echo "----------------------------------------------------"
 exit 0
 </INLINE>
