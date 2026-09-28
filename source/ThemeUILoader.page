@@ -52,6 +52,8 @@ if (($settings['SERVICE'] ?? "disabled") === "enabled") {
         if ($api) echo "<style>:root,.dark,.dark[data-theme]{{$api}}</style>\n";
         echo "<style>
 div.shade-white,div.shade-black,div.shade-azure,div.shade-gray{background-color:var(--shade-bg-color)!important}
+.unapi .text-gray-400,.unapi .text-gray-500,.unapi .text-gray-600{color:var(--alt-text-color)!important}
+.unapi .text-gray-700,.unapi .text-gray-800,.unapi .text-gray-900,.unapi .text-black{color:var(--text-color)!important}
 table.tablesorter tbody tr:nth-child(even),
 table.tablesorter tbody tr.tr_last,
 table.t1.tablesorter tbody tr.alt-row{background-color:var(--table-background-color)!important}

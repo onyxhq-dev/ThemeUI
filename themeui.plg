@@ -2,7 +2,7 @@
 <!DOCTYPE PLUGIN [
 <!ENTITY name      "ThemeUI">
 <!ENTITY author    "onyxhq-dev">
-<!ENTITY version   "2026.09.29a">
+<!ENTITY version   "2026.09.29b">
 <!ENTITY launch    "Settings/ThemeUI">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themeui.plg">
 ]>
@@ -10,6 +10,9 @@
 
 <CHANGES>
 ## ThemeUI - Theme Switcher for Unraid 7.2+
+## 2026.09.29b
+- Fix hardcoded grey description text (Tailwind text-gray-*) on Unraid API pages staying dark on dark themes
+
 ## 2026.09.29a
 - Fix Unraid API pages (Settings > Unraid API / OIDC, Connect) showing white panels with washed-out text on dark themes - the API's web components use their own light/dark colour variables that only follow Unraid's built-in base theme. They are now generated from each theme's own palette, so every theme (dark and light) is covered. Also fix the hardcoded light Flash backup box on the Connect page
 
@@ -91,7 +94,7 @@ exit 0
 
 <FILE Name="/usr/local/emhttp/plugins/ThemeUI/ThemeUILoader.page">
 <URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/source/ThemeUILoader.page</URL>
-<SHA256>3ebd738c8b3422aada9795364578c7d0f9958d88b65049c7f280f8d2efebb353</SHA256>
+<SHA256>e53d4e7994652e23e2862578baf293cab45a0be843afb806a69c5714da4b4957</SHA256>
 </FILE>
 
 <FILE Name="/usr/local/emhttp/plugins/ThemeUI/ThemeUI.page">
