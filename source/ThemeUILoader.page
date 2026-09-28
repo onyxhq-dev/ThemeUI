@@ -49,7 +49,8 @@ if (($settings['SERVICE'] ?? "disabled") === "enabled") {
         ] as $k => $src) {
             if (isset($tv[$src])) $api .= "--$k:{$tv[$src]} !important;";
         }
-        if ($api) echo "<style>:root,.dark,.dark[data-theme]{{$api}}</style>\n";
+        // Unraid's build scopes :root/.dark rules onto .unapi elements, so those must be targeted directly.
+        if ($api) echo "<style>:root,.unapi,.unapi.dark,.dark,.dark[data-theme]{{$api}}</style>\n";
         echo "<style>
 div.shade-white,div.shade-black,div.shade-azure,div.shade-gray{background-color:var(--shade-bg-color)!important}
 .unapi .text-gray-400,.unapi .text-gray-500,.unapi .text-gray-600{color:var(--alt-text-color)!important}

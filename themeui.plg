@@ -2,7 +2,7 @@
 <!DOCTYPE PLUGIN [
 <!ENTITY name      "ThemeUI">
 <!ENTITY author    "onyxhq-dev">
-<!ENTITY version   "2026.09.29b">
+<!ENTITY version   "2026.09.29c">
 <!ENTITY launch    "Settings/ThemeUI">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/themeui.plg">
 ]>
@@ -10,6 +10,9 @@
 
 <CHANGES>
 ## ThemeUI - Theme Switcher for Unraid 7.2+
+## 2026.09.29c
+- Fix Unraid API pages still rendering light on dark themes - Unraid scopes its colour variables to .unapi elements, so the theme overrides now target those directly
+
 ## 2026.09.29b
 - Fix hardcoded grey description text (Tailwind text-gray-*) on Unraid API pages staying dark on dark themes
 
@@ -94,7 +97,7 @@ exit 0
 
 <FILE Name="/usr/local/emhttp/plugins/ThemeUI/ThemeUILoader.page">
 <URL>https://raw.githubusercontent.com/onyxhq-dev/ThemeUI/master/source/ThemeUILoader.page</URL>
-<SHA256>e53d4e7994652e23e2862578baf293cab45a0be843afb806a69c5714da4b4957</SHA256>
+<SHA256>c3773d6687eb3f182fc4ad97e9c735b13adb6af7a16c839110a8165de6f8bfa9</SHA256>
 </FILE>
 
 <FILE Name="/usr/local/emhttp/plugins/ThemeUI/ThemeUI.page">
